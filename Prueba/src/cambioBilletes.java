@@ -2,6 +2,9 @@ import java.util.Scanner;
 // Con este programa se calculara segun los dolares ingresados, cuantos billetes son iguales segun la denominacion.
 public class cambioBilletes {
     public static void main(String[] args) {
+
+        System.out.println("Prorama conversion billetes");
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese la cantidad en dólares a cambiar: ");
